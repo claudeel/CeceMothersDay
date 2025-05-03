@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-sans;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .handwritten {
+        font-family: 'Pacifico', cursive;
+    }
+}
