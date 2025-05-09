@@ -6,31 +6,120 @@ import mom3 from "./assets/mom3.jpg";
 import mom4 from "./assets/mom4.jpg";
 import mom5 from "./assets/mom5.jpg";
 import mom6 from "./assets/mom6.jpg";
+import young from "./assets/pictures 327.jpg";
+import student from "./assets/pictures 023.jpg";
+import corporate from "./assets/pictures 002.jpg";
+import lover from "./assets/pictures 438.jpg";
+import elorm from "./assets/elorm.jpg";
+import adombday from "./assets/pictures 131.jpg";
+import plenty from "./assets/plenty.jpg";
+import family from "./assets/family.jpg";
 import song from "./assets/song.mp3"
 
 export default function MomTimeline() {
     const [isMuted, setIsMuted] = useState(false);
     const [events, setEvents] = useState([
-        {
-            id: 1,
-            year: '1985',
-            title: 'College Graduation',
-            description: 'Graduated with honors in Education',
-            emoji: '🎓',
-            color: 'bg-pink-100',
-            image: mom1
-        },
+
         {
             id: 2,
+            title: 'Cece in KETASCO',
+            description: 'she never jokes about her school oo ei',
+            emoji: '🎓',
+            color: 'bg-pink-100',
+            image: student
+        },
+
+        {
+            id: 1,
+            title: 'Beautiful Young Cece',
+            description: 'with such a cute smile',
+            emoji: '🎓',
+            color: 'bg-pink-100',
+            image: young
+        },
+
+        {
+            id: 1,
+            title: 'Corporate Girlie',
+            description: 'skin is giving ugh',
+            emoji: '🎓',
+            color: 'bg-pink-100',
+            image: corporate
+        },
+
+        {
+            id: 3,
             year: '1988',
-            title: 'Wedding Day',
-            description: 'Married Dad in a beautiful summer ceremony',
+            title: 'Love of her life',
+            description: 'serious lover girl oo hm',
             emoji: '💍',
             color: 'bg-purple-100',
             image: mom2
         },
+
         {
             id: 3,
+            year: '1985',
+            title: 'Happiness in Love!',
+            description: 'yes she is a lover girl',
+            emoji: '🎓',
+            color: 'bg-pink-100',
+            image: lover
+        },
+
+        {
+            id: 3,
+            year: '1985',
+            title: 'Her "Mi Boy"',
+            description: 'yes that is her first son',
+            emoji: '🎓',
+            color: 'bg-pink-100',
+            image: elorm
+        },
+
+
+        {
+            id: 3,
+            year: '1985',
+            title: 'Adoms birthday',
+            description: 'someone tell Adom to smile erh',
+            emoji: '🎓',
+            color: 'bg-pink-100',
+            image: adombday
+        },
+
+        {
+            id: 3,
+            year: '1985',
+            title: 'Aunty Cece',
+            description: 'the girls always want to go to Aunty Cece',
+            emoji: '🎓',
+            color: 'bg-pink-100',
+            image: plenty
+        },
+
+        {
+            id: 3,
+            year: '1985',
+            title: 'Our Mummy',
+            description: 'hehe, just admire',
+            emoji: '🎓',
+            color: 'bg-pink-100',
+            image: family
+        },
+
+        {
+            id: 3,
+            year: '1985',
+            title: 'Old School girlie',
+            description: 'afro girlie',
+            emoji: '🎓',
+            color: 'bg-pink-100',
+            image: mom1
+        },
+
+        {
+            id: 4,
             year: '1990',
             title: 'Became a Mom',
             description: 'Welcomed me into the world',
@@ -39,16 +128,16 @@ export default function MomTimeline() {
             image: mom3
         },
         {
-            id: 4,
+            id: 5,
             year: '1995',
-            title: 'Started Teaching',
-            description: 'Began her career as an elementary school teacher',
+            title: 'Her Rich Bomber oo ei',
+            description: 'you get husbanddd??,
             emoji: '👩‍🏫',
             color: 'bg-yellow-100',
             image: mom4
         },
         {
-            id: 5,
+            id: 6,
             year: '2007',
             title: 'Teacher of the Year',
             description: 'Recognized for excellence in education',
@@ -57,7 +146,7 @@ export default function MomTimeline() {
             image: mom4
         },
         {
-            id: 6,
+            id: 7,
             year: '2015',
             title: 'World Traveler',
             description: 'Fulfilled her dream of visiting Europe',
@@ -66,7 +155,7 @@ export default function MomTimeline() {
             image: mom5
         },
         {
-            id: 7,
+            id: 8,
             year: '2022',
             title: 'Grandma',
             description: 'Welcomed her first grandchild',
@@ -157,7 +246,7 @@ export default function MomTimeline() {
         <div className="p-6 max-w-4xl mx-auto font-sans">
             {/* Header */}
             <div className="text-center mb-8">
-                <h1 className="text-3xl font-bold text-pink-600 mb-2">Mom's Amazing Journey</h1>
+                <h1 className="text-3xl font-bold text-pink-600 mb-2">Helina - A Mother To All!</h1>
                 <p className="text-gray-600">A celebration of all your incredible achievements and our special memories</p>
 
                 {/* Audio control button */}
