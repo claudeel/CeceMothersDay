@@ -131,7 +131,7 @@ export default function MomTimeline() {
             id: 5,
             year: '1995',
             title: 'Her Rich Bomber oo ei',
-            description: 'you get husbanddd??,
+            description: 'you get husbanddd??',
             emoji: '👩‍🏫',
             color: 'bg-yellow-100',
             image: mom4
