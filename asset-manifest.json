@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/cece-mums-day/static/css/main.3107d27a.css",
+    "main.js": "/cece-mums-day/static/js/main.90e5dc74.js",
+    "static/js/453.899415c3.chunk.js": "/cece-mums-day/static/js/453.899415c3.chunk.js",
+    "static/media/song.mp3": "/cece-mums-day/static/media/song.2e91db117c61a878a01f.mp3",
+    "static/media/pictures 131.jpg": "/cece-mums-day/static/media/pictures 131.61a2f57d9b973d7a38b2.jpg",
+    "static/media/pictures 438.jpg": "/cece-mums-day/static/media/pictures 438.44162afcd7618d613fcf.jpg",
+    "static/media/pictures 002.jpg": "/cece-mums-day/static/media/pictures 002.eb76211aa601fb7af96f.jpg",
+    "static/media/mom2.PNG": "/cece-mums-day/static/media/mom2.8cc4b63eef7bf8521cad.PNG",
+    "static/media/mom1.jpg": "/cece-mums-day/static/media/mom1.c34f5a78efccc61381af.jpg",
+    "static/media/mom4.jpg": "/cece-mums-day/static/media/mom4.276991267b6915a04865.jpg",
+    "static/media/pictures 023.jpg": "/cece-mums-day/static/media/pictures 023.8ab79b32ba646b641103.jpg",
+    "static/media/mom3.jpg": "/cece-mums-day/static/media/mom3.2246a8c66782acb1f738.jpg",
+    "static/media/mom5.jpg": "/cece-mums-day/static/media/mom5.13d0a5a3e3acd4af0462.jpg",
+    "static/media/plenty.jpg": "/cece-mums-day/static/media/plenty.cea698b2254592014bf3.jpg",
+    "static/media/mom6.jpg": "/cece-mums-day/static/media/mom6.2ab9d4b9558895900efb.jpg",
+    "static/media/elorm.jpg": "/cece-mums-day/static/media/elorm.f602e8848a89b9e5fedc.jpg",
+    "static/media/family.jpg": "/cece-mums-day/static/media/family.c43db08ac662aa15fb56.jpg",
+    "static/media/pictures 327.jpg": "/cece-mums-day/static/media/pictures 327.9ff15bec3f1af007a0c9.jpg",
+    "index.html": "/cece-mums-day/index.html",
+    "main.3107d27a.css.map": "/cece-mums-day/static/css/main.3107d27a.css.map",
+    "main.90e5dc74.js.map": "/cece-mums-day/static/js/main.90e5dc74.js.map",
+    "453.899415c3.chunk.js.map": "/cece-mums-day/static/js/453.899415c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3107d27a.css",
+    "static/js/main.90e5dc74.js"
+  ]
+}
