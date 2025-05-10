@@ -13,6 +13,9 @@ import lover from "./assets/pictures 438.jpg";
 import elorm from "./assets/elorm.jpg";
 import adombday from "./assets/pictures 131.jpg";
 import plenty from "./assets/plenty.jpg";
+import mama from "./assets/pictures 446.jpg";
+import adom from "./assets/adom.jpg";
+import fresh from "./assets/fresh.jpg";
 import family from "./assets/family.jpg";
 import song from "./assets/song.mp3"
 
@@ -21,7 +24,7 @@ export default function MomTimeline() {
     const [events, setEvents] = useState([
 
         {
-            id: 2,
+            id: 1,
             title: 'Cece in KETASCO',
             description: 'she never jokes about her school oo ei',
             emoji: '🎓',
@@ -30,7 +33,7 @@ export default function MomTimeline() {
         },
 
         {
-            id: 1,
+            id: 2,
             title: 'Beautiful Young Cece',
             description: 'with such a cute smile',
             emoji: '🎓',
@@ -39,7 +42,7 @@ export default function MomTimeline() {
         },
 
         {
-            id: 1,
+            id: 3,
             title: 'Corporate Girlie',
             description: 'skin is giving ugh',
             emoji: '🎓',
@@ -48,7 +51,7 @@ export default function MomTimeline() {
         },
 
         {
-            id: 3,
+            id: 4,
             year: '1988',
             title: 'Love of her life',
             description: 'serious lover girl oo hm',
@@ -58,8 +61,7 @@ export default function MomTimeline() {
         },
 
         {
-            id: 3,
-            year: '1985',
+            id: 5,
             title: 'Happiness in Love!',
             description: 'yes she is a lover girl',
             emoji: '🎓',
@@ -68,8 +70,7 @@ export default function MomTimeline() {
         },
 
         {
-            id: 3,
-            year: '1985',
+            id: 6,
             title: 'Her "Mi Boy"',
             description: 'yes that is her first son',
             emoji: '🎓',
@@ -79,8 +80,7 @@ export default function MomTimeline() {
 
 
         {
-            id: 3,
-            year: '1985',
+            id: 7,
             title: 'Adoms birthday',
             description: 'someone tell Adom to smile erh',
             emoji: '🎓',
@@ -88,9 +88,9 @@ export default function MomTimeline() {
             image: adombday
         },
 
+
         {
-            id: 3,
-            year: '1985',
+            id: 8,
             title: 'Aunty Cece',
             description: 'the girls always want to go to Aunty Cece',
             emoji: '🎓',
@@ -99,8 +99,7 @@ export default function MomTimeline() {
         },
 
         {
-            id: 3,
-            year: '1985',
+            id: 9,
             title: 'Our Mummy',
             description: 'hehe, just admire',
             emoji: '🎓',
@@ -109,8 +108,25 @@ export default function MomTimeline() {
         },
 
         {
-            id: 3,
-            year: '1985',
+            id: 9,
+            title: 'Mummy and Adom',
+            description: 'hehe, just admire',
+            emoji: '🎓',
+            color: 'bg-pink-100',
+            image: adom
+        },
+
+        {
+            id: 7,
+            title: 'Beauty!',
+            description: 'freshhh',
+            emoji: '🎓',
+            color: 'bg-pink-100',
+            image: fresh
+        },
+
+        {
+            id: 10,
             title: 'Old School girlie',
             description: 'afro girlie',
             emoji: '🎓',
@@ -119,8 +135,7 @@ export default function MomTimeline() {
         },
 
         {
-            id: 4,
-            year: '1990',
+            id: 11,
             title: 'Became a Mom',
             description: 'Welcomed me into the world',
             emoji: '👶',
@@ -128,40 +143,38 @@ export default function MomTimeline() {
             image: mom3
         },
         {
-            id: 5,
-            year: '1995',
+            id: 12,
             title: 'Her Rich Bomber oo ei',
             description: 'you get husbanddd??',
             emoji: '👩‍🏫',
             color: 'bg-yellow-100',
             image: mom4
         },
+
         {
-            id: 6,
-            year: '2007',
-            title: 'Teacher of the Year',
-            description: 'Recognized for excellence in education',
-            emoji: '🏆',
-            color: 'bg-green-100',
-            image: mom4
-        },
-        {
-            id: 7,
-            year: '2015',
-            title: 'World Traveler',
-            description: 'Fulfilled her dream of visiting Europe',
+            id: 14,
+            title: 'Muah',
+            description: 'kisses',
             emoji: '✈️',
             color: 'bg-indigo-100',
             image: mom5
         },
         {
-            id: 8,
-            year: '2022',
-            title: 'Grandma',
-            description: 'Welcomed her first grandchild',
+            id: 15,
+            title: 'muah',
+            description: 'kisses',
             emoji: '👵',
             color: 'bg-red-100',
             image: mom6
+        },
+
+        {
+            id: 16,
+            title: 'Mamacita!',
+            description: 'Two Wonderful Mothers!',
+            emoji: '👵',
+            color: 'bg-red-100',
+            image: mama
         }
     ]);
 
@@ -244,11 +257,15 @@ export default function MomTimeline() {
 
     return (
         <div className="p-6 max-w-4xl mx-auto font-sans">
+
+
             {/* Header */}
             <div className="text-center mb-8">
                 <h1 className="text-3xl font-bold text-pink-600 mb-2">Helina - A Mother To All!</h1>
                 <p className="text-gray-600">A celebration of all your incredible achievements and our special memories</p>
-
+                <div className="bg-pink-50 border border-pink-200 text-pink-700 text-sm p-3 rounded-lg mb-6 text-center">
+                    🎶 Having trouble hearing the music? Click the speaker button below to play or unmute!
+                </div>
                 {/* Audio control button */}
                 <button
                     className="mt-4 bg-pink-100 hover:bg-pink-200 text-pink-600 p-2 rounded-full transition-all"
