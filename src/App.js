@@ -142,14 +142,6 @@ export default function MomTimeline() {
             color: 'bg-blue-100',
             image: mom3
         },
-        {
-            id: 12,
-            title: 'Her Rich Bomber oo ei',
-            description: 'you get husbanddd??',
-            emoji: '👩‍🏫',
-            color: 'bg-yellow-100',
-            image: mom4
-        },
 
         {
             id: 14,
