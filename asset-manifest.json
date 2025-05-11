@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CeceMothersDay/static/css/main.e830abfe.css",
-    "main.js": "/CeceMothersDay/static/js/main.0e27a813.js",
+    "main.js": "/CeceMothersDay/static/js/main.d8914a0c.js",
     "static/js/453.899415c3.chunk.js": "/CeceMothersDay/static/js/453.899415c3.chunk.js",
     "static/media/song.mp3": "/CeceMothersDay/static/media/song.2e91db117c61a878a01f.mp3",
     "static/media/pictures 131.jpg": "/CeceMothersDay/static/media/pictures 131.61a2f57d9b973d7a38b2.jpg",
@@ -23,11 +23,11 @@
     "static/media/pictures 327.jpg": "/CeceMothersDay/static/media/pictures 327.9ff15bec3f1af007a0c9.jpg",
     "index.html": "/CeceMothersDay/index.html",
     "main.e830abfe.css.map": "/CeceMothersDay/static/css/main.e830abfe.css.map",
-    "main.0e27a813.js.map": "/CeceMothersDay/static/js/main.0e27a813.js.map",
+    "main.d8914a0c.js.map": "/CeceMothersDay/static/js/main.d8914a0c.js.map",
     "453.899415c3.chunk.js.map": "/CeceMothersDay/static/js/453.899415c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e830abfe.css",
-    "static/js/main.0e27a813.js"
+    "static/js/main.d8914a0c.js"
   ]
 }
